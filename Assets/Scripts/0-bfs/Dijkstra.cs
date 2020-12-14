@@ -24,16 +24,16 @@ public class Dijkstra
                 {
                     if (weights.ContainsKey(neighbor))
                     {
-                        if (weights[neighbor] > weights[n] + graph.getW(neighbor))
+                        if (weights[neighbor] > graph.getW(neighbor) + weights[n])
                         {
-                            weights[neighbor] = weights[n] + graph.getW(neighbor);
+                            weights[neighbor] =  graph.getW(neighbor) + weights[n];
                             path[neighbor] = n;
 
                         }
                     }
                     else
                     {
-                        weights[neighbor] = weights[n] + graph.getW(neighbor);
+                        weights[neighbor] =graph.getW(neighbor) + weights[n] ;
                         path[neighbor] = n;
                     }
                     if (!hasVisited.ContainsKey(neighbor))
