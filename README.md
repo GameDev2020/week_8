@@ -4,7 +4,7 @@
 A project with step-by-step scenes illustrating how to construct a 2D scene using tilemaps,
 and how to do path-finding using the BFS algorithm.
 
-## q1 - Dijekstra
+## q1 - Dijkstra
 * interface Weighted Graph:
 https://github.com/GameDev2020/week_8/blob/main/Assets/Scripts/0-bfs/WGraph.cs
 * Algorithms class:
