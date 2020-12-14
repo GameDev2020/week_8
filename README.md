@@ -1,8 +1,13 @@
-# Unity week 5: Two-dimensional scene-building and path-finding
+# week 8
+## by Rinat Ozkesen and Daniel Gimpelman
 
 A project with step-by-step scenes illustrating how to construct a 2D scene using tilemaps,
 and how to do path-finding using the BFS algorithm.
 
+## q1 - Dijekstra
+
+
+## q5
 
 ## Credits
 
